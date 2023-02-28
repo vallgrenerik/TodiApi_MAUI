@@ -20,7 +20,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Client\Todo.Web.Client.csproj" />
-    <ProjectReference Include="..\Shared\Todo.Web.Shared.csproj" />
   </ItemGroup>
 
 </Project>

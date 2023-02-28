@@ -1,4 +1,5 @@
 ﻿@using Todo.Client.Shared
+@using Todo.Client.Shared.Components
 @inject TodoClient Client
 
 @if (!string.IsNullOrEmpty(CurrentUser))
@@ -23,7 +24,6 @@ else
 
     [Parameter]
     public string[] SocialProviders { get; set; } = Array.Empty<string>();
-
 
     void HandleLogin(string newUsername)
     {

@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
-using Todo.Web.Client;
+using Todo.Client.Shared;
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
 

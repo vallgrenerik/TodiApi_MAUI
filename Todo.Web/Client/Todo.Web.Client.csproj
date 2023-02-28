@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Shared\Todo.Web.Shared.csproj" />
+    <ProjectReference Include="..\..\Todo.Client.Shared\Todo.Client.Shared.csproj" />
   </ItemGroup>
 
 </Project>
